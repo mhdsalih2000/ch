@@ -73,6 +73,7 @@ body {
   text-decoration: none;
   color: #c91313;
   font-size: 0.7rem;
+  cursor: pointer;
 }
 
 .Nav_dropdown-content a:hover {

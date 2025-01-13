@@ -72,6 +72,7 @@ body {
   padding: 10px;
   text-decoration: none;
   color: #c91313;
+  cursor: pointer;
   font-size: 0.7rem;
 }
 
@@ -418,6 +419,87 @@ p {
 }
 
 
+/* =================footer-========== */
+.footer-main {
+  width: 100%;
+  padding: 2rem 0;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.footer-section h3 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #41a012;
+}
+.footer-section p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 0.5rem 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #41a012;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons .icon {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #41a012;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 0.8rem;
+  border-top: 1px solid #444;
+  padding-top: 1rem;
+  width: 90%;
+}
 
 /* Mobile Portrait */
 @media screen and (max-width: 480px) {

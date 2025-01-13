@@ -851,8 +851,8 @@ function displayProducts() {
                <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
                    Configure Now
                </div>
-           ;
-            `;
+           
+            `
         } else if (category === 'GPUs') {
             // For GPUs: Display memory size and clock speed
             productContent = `
@@ -867,7 +867,7 @@ function displayProducts() {
                 <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
                     Configure Now
                 </div>
-            `;
+            `
         } else if (category === 'motherboards') {
             productContent = `
                  <div class="imageProduct1">
@@ -880,8 +880,8 @@ function displayProducts() {
                <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
                    Configure Now
                </div>
-           ;
-            `;
+           
+            `
         } else {
             productContent = `
                 <div class="imageProduct1">
@@ -894,7 +894,7 @@ function displayProducts() {
                 <div class="configure" onclick="navigatecomponentDetails('${product.name}')">
                     Configure Now
                 </div>
-            `;
+            `
         }
 
         // Now set the content to the productDiv
